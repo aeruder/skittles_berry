@@ -46,8 +46,7 @@ hi TabLineSel     ctermfg=255 guifg=#eeeeee
 hi TabLineFill    cterm=none term=none ctermbg=235 guibg=#262626
 hi CursorColumn   cterm=none term=none ctermbg=235 guibg=#262626
 hi CursorLine     cterm=none term=none ctermbg=235 guibg=#262626
-hi clear ColorColumn
-hi link ColorColumn CursorLine
+hi ColorColumn    cterm=none term=none ctermbg=235 guibg=#262626
 hi MatchParen     term=reverse ctermfg=0 ctermbg=208 gui=bold guifg=#000000 guibg=#ff8700
 hi Comment        ctermfg=66 guifg=#5f8787
 hi Constant       ctermfg=91 gui=bold guifg=#8700af
